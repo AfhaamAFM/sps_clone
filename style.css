@@ -10,13 +10,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow-x:initial;
+    /* overflow-x:initial; */
  
     
 }
-*::-webkit-scrollbar{
+/* *::-webkit-scrollbar{
     display: none;
-}
+} */
 body{
     font-family: var(--font);
 }
@@ -74,6 +74,8 @@ background-color: white;
     margin: 0 0 1rem .5rem;
     background: var(--teal);
     padding: .5rem;
+    width: 41px;
+    text-align: center;
     border-radius: 50%;
     color: white;
     font-size: 1.1rem;
@@ -136,6 +138,7 @@ background-color: white;
     height: 3.3rem;
     width: 2.7rem;
     border-radius: .3rem;
+    z-index: 99;
 
 }
 #btn_up:hover{
